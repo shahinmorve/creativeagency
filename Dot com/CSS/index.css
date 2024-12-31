@@ -1,0 +1,1320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-image: url(/Assets/carousel-1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back {
+    background-color: rgba(0, 0, 0, 0.66);
+    width: 100%;
+    height: 500px;
+}
+
+.burger {
+    display: none;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.logo {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 5px;
+
+}
+
+.header h1 {
+    padding-top: 2%;
+    margin-left: 2%;
+    color: white;
+}
+
+.header-ul {
+    list-style: none;
+    text-align: right;
+    margin-top: -40px;
+}
+
+.header-ul li {
+    display: inline-block;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header-ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.select-header {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.select-header option {
+    background-color: #333;
+    color: white;
+}
+
+li a:hover {
+    color: orangered;
+}
+
+.section1 p {
+    color: white;
+    text-align: left;
+    margin-left: 20%;
+    font-weight: 100;
+    margin-top: 3%;
+    margin-bottom: -2%;
+}
+
+.section1 h1 {
+    text-align: left;
+    font-size: 80px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.Learn-btn {
+    text-decoration: none;
+    margin-left: 20%;
+    color: black;
+    background-color: orange;
+    padding: 6px;
+    border: 2px solid orange;
+    border-radius: 1px;
+}
+
+.aboutus {
+    padding-bottom: 3%;
+}
+
+.about-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 11%;
+}
+
+.about-img img {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    border: 2px solid grey;
+    margin-top: 50px;
+}
+
+.about-text {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.about-text span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 6px;
+    font-size: small;
+}
+
+.about-text h2 {
+    padding: 6px;
+    font-size: 50px;
+}
+
+.about-text p {
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.contact-ul {
+    list-style: none;
+    padding: 3%;
+    margin-left: 7%;
+}
+
+.contact-ul li {
+    display: inline-block;
+    border: 1px solid rgb(222, 218, 218);
+    padding: 12px;
+    width: 350px;
+    margin-left: 16px;
+}
+
+.contact-ul li i {
+    color: orange;
+    font-size: 30px;
+}
+
+.contact-item i {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.contact-txt {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-txt h5 {
+    font-size: 15px;
+}
+
+.contact-txt span {
+    font-size: 12px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services-txt {
+    width: 350px;
+    padding: 20px;
+    margin-left: 8%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.services-txt span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 3px;
+    font-size: small;
+}
+
+.services-txt h2 {
+    font-size: 40px;
+}
+
+.services-txt p {
+    padding-bottom: 8%;
+    color: gray;
+    font-size: 18px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 6px;
+    border: 2px solid orange;
+    border-radius: 1px;
+    margin-left: 4px;
+}
+
+.services-ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.services-item {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.services-item i {
+    color: orange;
+    font-size: 25px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.services-item-txt {
+    width: 280px;
+    display: inline-block;
+}
+
+.services-item-txt h4 {
+    padding-bottom: 6%;
+}
+
+.services-item-txt p {
+    padding-bottom: 6%;
+}
+
+.readmore-btn {
+    text-decoration: none;
+    color: orange;
+}
+
+.experience {
+    padding-bottom: 6%;
+}
+
+.experience-text {
+    width: 500px;
+    display: inline-block;
+    margin-left: 10%;
+    padding-bottom: 6%;
+    padding: 20px;
+    margin-right: 70px;
+}
+
+.experience-text h2 {
+    font-size: 40px;
+}
+
+.experience-ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.experience-text span {
+    background-color: orange;
+    color: white;
+    font-size: small;
+    padding: 2px;
+}
+
+.experience-text p {
+    color: gray;
+    font-size: 18px;
+}
+
+.experience-text h5 {
+    margin-bottom: 12px;
+}
+
+.experience-text h5 i {
+    color: orange;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.experience-ul li {
+    border: 1px solid rgb(213, 211, 211);
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.experience-ul li h1 {
+    color: orange;
+    text-align: center;
+}
+
+.experience-ul li h5 {
+    text-align: center;
+}
+
+.team-text {
+    width: 400px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 10%;
+    padding-bottom: 6%;
+}
+
+.team-text span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 3px;
+    font-size: small;
+}
+
+.team-text h2 {
+    font-size: 40px;
+}
+
+.team-text p {
+    padding-bottom: 8%;
+    font-size: 18px;
+    color: gray;
+}
+
+.team-ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.team-ul li {
+    display: inline-block;
+    height: 220px;
+    border: 1px solid rgb(212, 206, 206);
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.team-ul li img {
+    width: 150px;
+    height: 150px;
+}
+
+.team-ul li h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.team-ul li p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.pricing-ul {
+    display: inline-block;
+    padding-bottom: 6%;
+    list-style: none;
+    margin-left: 12%;
+}
+
+.pricing-ul li {
+    display: inline-block;
+    width: 210px;
+    height: 300px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 12px;
+}
+
+.plan-price {
+    background-color: orange;
+    padding: 15px;
+}
+
+.plan-price span {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.plan-price sup {
+    font-size: 20px;
+}
+
+.pricing-ul li p {
+    margin: 10px;
+}
+
+.pricing-text {
+    width: 400px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 10%;
+    padding-bottom: 6%;
+}
+
+.pricing-text span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 3px;
+    font-size: small;
+}
+
+
+.client-text {
+    width: 300px;
+    height: 300px;
+    margin-left: 12%;
+    display: inline-block;
+}
+
+.client-text span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 3px;
+    font-size: small;
+}
+
+.clientname {
+    width: 900px;
+    display: inline-block;
+}
+
+.client1 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.client1 img {
+    border-radius: 50%;
+    width: 80px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.message-box {
+    width: 300px;
+    /* height: 100px; */
+    border-radius: 5px;
+    border: 1px solid grey;
+    position: relative;
+}
+
+.message-box p {
+    padding: 16px;
+}
+
+.message-box.arrow-top {
+    margin-top: 40px;
+
+}
+
+.message-box.arrow-top:after {
+    content: " ";
+    position: absolute;
+    left: 50px;
+    top: 30;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-top: 15px solid black;
+}
+
+.client-profile {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small-yellow {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    background-color: orange;
+    text-align: center;
+    margin-top: -4.6%;
+}
+
+.small-p {
+    font-size: 14px;
+}
+
+.client-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.client2 {
+    display: inline-block;
+}
+
+.client2 img {
+    border-radius: 50%;
+    width: 80px;
+    margin: 20px;
+}
+
+.blog {
+    margin-bottom: 60px;
+}
+
+.blog-text span {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    margin-left: 48%;
+    font-size: small;
+    text-align: center;
+    width: 100px;
+}
+
+.blog-text h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.blog1 {
+    display: inline-block;
+    width: 480px;
+    height: 380px;
+    border: 1px solid gray;
+    margin-left: 15%;
+}
+
+.blog1 img {
+    width: 480px;
+}
+
+.user {
+    display: inline-block;
+    width: 40px;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.user-text {
+    display: inline-block;
+}
+
+.user-text p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.user-text i {
+    color: orange;
+}
+
+.blog1 h4 {
+    padding: 10px;
+}
+
+.blog2 {
+    display: inline-block;
+    width: 480px;
+    height: 380px;
+    border: 1px solid gray;
+    margin-left: 2%;
+}
+
+.blog2 img {
+    width: 480px;
+}
+
+.user2 {
+    display: inline-block;
+    width: 40px;
+}
+
+.user2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.user-text {
+    display: inline-block;
+}
+
+.user-text p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.user-text i {
+    color: orange;
+}
+
+.blog2 h4 {
+    padding: 10px;
+}
+
+.small-yellow {
+    margin-top: -4.4%;
+}
+
+.footer-section {
+    background-color: black;
+    height: 200px;
+}
+
+.footer-logo {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.footer-coloumn1 {
+    width: 250px;
+    margin-top: 1%;
+    padding: 4px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.footer-coloumn1 ul {
+    list-style: none;
+}
+
+.social-icon i {
+    color: orange;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+
+.footer-coloumn1 h1 {
+    color: white;
+    padding: 4px;
+}
+
+.footer-coloumn1 p {
+    color: white;
+    padding: 4px;
+}
+
+.footer-coloumn2 {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.footer-coloumn2 ul {
+    list-style: none;
+}
+
+.footer-coloumn2 h3 {
+    color: orange;
+    padding: 4px;
+}
+
+.footer-coloumn2 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-coloumn2 li i {
+    color: orange;
+    font-size: smaller;
+    padding: 2px;
+}
+
+.footer-column3 {
+    display: inline-block;
+    width: 220px;
+    margin-left: 10%;
+}
+
+.footer-column3 h3 {
+    color: orange;
+}
+
+.footer-column3 p {
+    color: white;
+}
+
+.footer-column3 i {
+    color: orange;
+    margin: 10px;
+}
+
+.footer-coloumn p {
+    text-align: center;
+}
+
+.footer-coloumn a {
+    text-decoration: none;
+    color: orange;
+}
+
+.footer-coloumn span {
+    color: orange;
+}
+
+@media (max-width:768px) {
+    .header-ul {
+        display: none;
+    }
+
+    .burger {
+        display: inline-block;
+        margin-left: 6%;
+    }
+
+    .logo {
+        font-weight: 600;
+
+    }
+
+    .logo-div {
+        display: inline-block;
+    }
+
+    .logo-div h1 {
+        margin-left: 40px;
+    }
+
+    .logo-div span {
+        font-size: 35px;
+    }
+
+    .header {
+        background-size: cover;
+    }
+
+    .section1 h1 {
+        margin-top: 3%;
+        font-size: 60px;
+    }
+
+    .section1 p {
+        margin-top: 10%;
+    }
+
+    .button {
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .about-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-text {
+        width: 450px;
+    }
+
+    .about-text h2 {
+        padding: 6px;
+        font-size: 30px;
+    }
+
+    .about-text p {
+        padding: 10px;
+        margin-bottom: 2%;
+        font-size: 12px;
+    }
+
+    .contact-ul li {
+        width: 200px;
+    }
+
+    .contact-ul li i {
+        color: orange;
+        font-size: 15px;
+    }
+
+    .services-txt {
+        width: 200px;
+        display: inline-block;
+    }
+
+    .services-txt h2 {
+        font-size: 20px;
+    }
+
+    .services-txt p {
+        color: rgb(18, 17, 17);
+        font-size: 14px;
+    }
+
+    .services-item {
+        display: inline-block;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .services-item i {
+        font-size: 15px;
+        vertical-align: top;
+    }
+
+    .services-item-txt {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .services-item-txt h4 {
+        font-size: 12px;
+    }
+
+    .services-item-txt p {
+        font-size: 12px;
+    }
+
+    .experience-text {
+        width: 300px;
+    }
+
+    .experience-text h2 {
+        font-size: 20px;
+    }
+
+    .experience-text p {
+        font-size: 13px;
+    }
+
+    .experience-ul li {
+        width: 120px;
+        padding: 13px;
+        margin: 5px;
+        margin-right: 15px;
+    }
+
+    .experience-ul li h1 {
+        font-size: 25px;
+    }
+
+    .experience-ul li h5 {
+        font-size: 10px;
+    }
+
+    .team-text {
+        width: 250px;
+    }
+
+    .team-text h2 {
+        font-size: 30px;
+    }
+
+    .team-text p {
+        font-size: 13px;
+    }
+
+    .team-ul {
+        display: inline-block;
+        margin-left: -30px;
+        margin-top: 40px;
+    }
+
+    .team-ul li {
+        display: inline-block;
+        height: 180px;
+        margin: 5px;
+    }
+
+    .team-ul li img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pricing-ul li {
+        width: 150px;
+        height: 260px;
+        margin: 12px;
+    }
+
+    .plan-price span {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .plan-price sup {
+        font-size: 15px;
+    }
+
+    .pricing-ul li p {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .pricing-text {
+        width: 280px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 2%;
+    }
+
+    .pricing-text h2 {
+        font-size: 20px;
+    }
+
+    .pricing-text p {
+        font-size: 15px;
+    }
+
+    .pricing-text h3 {
+        font-size: 18px;
+    }
+
+    .client-text {
+        width: 200px;
+        height: 300px;
+    }
+
+    .clientname {
+        width: 450px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .client1 img {
+        width: 40px;
+    }
+
+    .message-box {
+        width: 180px;
+    }
+
+    .message-box p {
+        font-size: 12px;
+    }
+
+    .client-profile h4,
+    span {
+        font-size: 15px;
+    }
+
+    .client2 img {
+        width: 40px;
+    }
+
+    .blog1 {
+        width: 300px;
+        height: 260px;
+        margin-left: 11%;
+    }
+
+    .blog1 img {
+        width: 300px;
+    }
+
+    .user img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .blog1 h4 {
+        font-size: 12px;
+    }
+
+    .user-text p {
+        font-size: 12px;
+    }
+
+    .blog2 {
+        width: 300px;
+        height: 260px;
+    }
+
+    .blog2 img {
+        width: 300px;
+    }
+
+    .user2 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .blog2 h4 {
+        font-size: 12px;
+    }
+
+    .small-yellow {
+        margin-top: -8.4%;
+    }
+
+    .footer-section {
+        height: 200px;
+    }
+
+    .footer-logo {
+        font-size: 25px;
+    }
+
+    .footer-coloumn1 {
+        width: 180px;
+        margin-top: 1%;
+        padding: 1px;
+        margin-left: 4%;
+    }
+
+    .footer-coloumn1 p {
+        font-size: 12px;
+    }
+
+    .footer-coloumn2 {
+        margin-left: 4%;
+    }
+
+    .footer-column3 {
+        width: 200px;
+        margin-left: 4%;
+        padding: 4px;
+    }
+
+    .footer-column3 h3 {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .footer-column3 p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:426px) {
+
+    .logo-div h1 {
+        margin-left: 65px;
+    }
+
+    .header {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section1 h1 {
+        margin-top: 3%;
+        font-size: 35px;
+        margin-bottom: 3%;
+    }
+
+    .section1 p {
+        margin-top: 25%;
+    }
+
+    .button {
+        padding: 1px;
+        font-size: 15px;
+        margin-left: 2%;
+    }
+
+    .about-img img {
+        width: 230px;
+        height: 230px;
+        margin-left: 22%;
+    }
+
+    .about-text {
+        width: 370px;
+        margin-left: 8%;
+    }
+
+    .about-text h2 {
+        font-size: 25px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .contact-ul li {
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+
+    .contact-ul li i {
+        font-size: 20px;
+    }
+
+    .services-txt {
+        width: 370px;
+        margin-top: -8%;
+        margin-left: 8%;
+    }
+
+    .services-txt h2 {
+        font-size: 24px;
+    }
+
+    .services-item {
+        margin-left: 10%;
+    }
+
+    .services-item i {
+        font-size: 27px;
+    }
+
+    .services-item-txt {
+        width: 250px;
+    }
+
+    .services-item-txt h4 {
+        font-size: 18px;
+    }
+
+    .services-item-txt p {
+        padding: 0;
+    }
+
+    .readmore-btn {
+        font-size: 15px;
+    }
+
+    .experience-text {
+        width: 370px;
+        margin-left: 8%;
+        margin-right: 0;
+    }
+
+    .experience-text h2 {
+        font-size: 25px;
+    }
+
+    .experience-text p {
+        font-size: 16px;
+    }
+
+    .experience-ul li {
+        width: 250px;
+        margin-left: 20%;
+    }
+
+    .experience-ul li h1 {
+        font-size: 40px;
+    }
+
+    .experience-ul li h5 {
+        font-size: 14px;
+    }
+
+    .team-text {
+        width: 370px;
+        margin-left: 8%;
+        margin-right: -8%;
+    }
+
+    .team-text h2 {
+        font-size: 25px;
+    }
+
+    .team-text p {
+        font-size: 16px;
+    }
+
+    .team-ul li {
+        border: 1px solid grey;
+        height: 280px;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+
+    .team-ul li img {
+        width: 220px;
+        height: 210px;
+    }
+
+    .pricing-ul li {
+        width: 220px;
+        height: 280px;
+        margin-left: 15%;
+    }
+
+    .pricing-text {
+        width: 370px;
+        margin-left: 8%;
+    }
+
+    .pricing-text h2 {
+        font-size: 25px;
+    }
+
+    .pricing-text p {
+        font-size: 16px;
+    }
+
+    .client-text {
+        width: 350px;
+        height: 300px;
+    }
+
+    .clientname {
+        width: 300px;
+        margin-left: 18%;
+        margin-top: -25%;
+    }
+
+    .message-box {
+        width: 280px;
+    }
+
+    .message-box p {
+        font-size: 14px;
+    }
+
+    .blog-text h1 {
+        font-size: 23px;
+    }
+
+    .blog1 {
+        margin-left: 15%;
+    }
+
+    .blog2 {
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+
+    .small-yellow {
+        margin-top: -15.2%;
+    }
+
+    .footer-section {
+        height: 140px;
+    }
+
+    .footer-logo {
+        font-size: 12px;
+    }
+
+    .footer-coloumn1 {
+        width: 100px;
+    }
+
+    .social-icon i {
+        font-size: 9px;
+    }
+
+    .footer-coloumn1 p {
+        font-size: 9px;
+    }
+
+    .footer-coloumn1 h1 {
+        font-size: 12px;
+    }
+
+    .footer-coloumn2 {
+        margin-top: 2%;
+        vertical-align: top;
+    }
+
+    .footer-coloumn2 ul li {
+        font-size: 9px;
+        margin-bottom: 5px;
+
+    }
+
+    .footer-coloumn2 h3 {
+        font-size: 9px;
+    }
+
+    .footer-column3 {
+        width: 100px;
+        vertical-align: top;
+    }
+
+    .footer-column3 h3 {
+        font-size: 9px;
+    }
+
+    .footer-column3 p {
+        font-size: 6px;
+    }
+
+    .footer-coloumn p,
+    span {
+        font-size: 9px;
+    }
+
+}
